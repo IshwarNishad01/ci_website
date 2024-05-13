@@ -1,0 +1,19 @@
+1. Download & configure footprint of codeigniter 3.1.11
+
+2. Create a database name codegniter_app
+
+3. download adminLTE 3.0.4 template for our admin panel
+
+4. setup adminLTE dashboard for our admin panel
+
+5. Create admins table in database for admin login 
+    id,username,password,status,created_at
+
+6. create login view for our admin login 
+
+7. create a model called admin_model for database manipulation
+   a) getByUsername() method will fetch admin user via username
+
+8. Create login controller for login logic
+  a) authenticate() in this method we will write our login process
+  b) logout() will logout a admin user
